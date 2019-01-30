@@ -9,7 +9,6 @@
                                 <div class="text text-l">
                                     <p>
                                         {{ message.name }}
-                                        {{ user_name }}
                                     </p>
                                     <p>
                                         {{ message.text }}

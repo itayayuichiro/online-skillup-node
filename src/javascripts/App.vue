@@ -10,7 +10,6 @@
         <div class="container">
             <p>
                 <img class="logo" src="../images/logo.jpg" alt="ロゴ">
-                <span class="sample">サンプルコード</span>
             </p>
             <MyComponent :messages="$data.messages" :user_name="this.$data.name"/>
             <form @submit="onSubmit">
