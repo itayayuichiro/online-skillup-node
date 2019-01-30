@@ -1,4 +1,4 @@
-import '../css/base.scss';
+// import '../css/base.scss';
 
 import Vue from 'vue';
 import App from './App.vue';
@@ -8,3 +8,4 @@ new Vue({
   components: { App },
   template: '<app />'
 });
+

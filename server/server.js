@@ -46,9 +46,8 @@ io.on('connection', (socket) => {
   });
 
   // ユーザの参加
-  socket.on('send', (message) => {
-    console.log('send:', message);
-    console.log("キタキタき");
-    io.emit('send', message);
+  socket.on('send', (message,name) => {
+    console.log('send:', message,name);
+    io.emit('send', message,name);
   });
 });

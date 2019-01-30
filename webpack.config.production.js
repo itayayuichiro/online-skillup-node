@@ -21,7 +21,7 @@ const config = merge(baseConfig, {
 });
 
 config.module.rules.push({
-  test: /\.(sass|scss)$/,
+  test: /\.(sass|scss|css)$/,
   use: [
     // CSSをextractする
     MiniCssExtractPlugin.loader,
